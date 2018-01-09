@@ -41,9 +41,9 @@ public class Robot extends IterativeRobot {
 		gameData = DriverStation.getInstance().getGameSpecificMessage();
 		if(gameData.charAt(0) == 'L')
 		{
-			//Put left auto code here
+			System.out.println("Go Left");
 		} else {
-			//Put right auto code here
+			System.out.println("Go Right");
 		}
 	}
 
